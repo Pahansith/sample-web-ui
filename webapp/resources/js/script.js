@@ -27,3 +27,32 @@ $(document).ready(function(){
         $("#navigation-lang").stop().slideToggle(500);
     });
 });
+
+$("#navi-features .fa-chevron-down").toggleClass("rtoate180");
+
+$(document).ready(function(){
+    $("#navi-features").click(function(){
+        $("#navi-features .fa-chevron-down").toggleClass("rtoate180");
+        $("#navigation-features").stop().slideToggle(500);
+    });
+});
+
+$("#navi-solutions .fa-chevron-down").toggleClass("rtoate180");
+
+$(document).ready(function(){
+    $("#navi-solutions").click(function(){
+        $("#navi-solutions .fa-chevron-down").toggleClass("rtoate180");
+        $("#navigation-solutions").stop().slideToggle(500);
+    });
+});
+
+$("#navi-resources .fa-chevron-down").toggleClass("rtoate180");
+
+$(document).ready(function(){
+    $("#navi-resources").click(function(){
+        $("#navi-resources .fa-chevron-down").toggleClass("rtoate180");
+        $("#navigation-resources").stop().slideToggle(500);
+    });
+});
+
+
