@@ -8,14 +8,14 @@
     border-bottom: 1px solid #cecece;
 }
 
-#title-header-image{
+.title-header-image{
     margin-left: 127px;
     position: absolute;
     top: 9px;
     color: gold;
 }
 
-#title-header-caption{
+.title-header-caption{
     position: absolute;
     margin-left: 150px;
     top: 9px;
@@ -278,6 +278,10 @@ font-size:12px;
     color: dimgrey;
 }
 
+#myCarousel{
+    height:370px;
+}
+
 dl>dt{
     padding: 12px;
 }
@@ -447,11 +451,8 @@ li a {
     font-size: 18px;
 }
 
-#button-1-email{
-    background-color: rgba(244,252,248,0.8);
-    border:1px solid gainsboro;
-    border-radius: 5px;
-    margin-left: 60px;
-
-
+.font-list{
+    font-family: 'Quicksand', sans-serif;
+    color: dimgrey;
 }
+
